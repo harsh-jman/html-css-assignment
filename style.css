@@ -1,0 +1,41 @@
+
+  /* Style the links inside the navigation bar */
+  .nav {
+    background-color: #5be2e2;
+    overflow: hidden;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 10px 20px; /* Adjust left and right padding here */
+    text-decoration: none;
+    font-size: 17px;
+    width: 100%;
+  }
+  select {
+    background: transparent; /* Transparent background */
+    border: none; /* No border */
+    outline: none; /* No outline */
+    appearance: none; /* Remove default arrow icon in some browsers */
+    padding: 0; /* Remove default padding */
+  }
+
+  select::-ms-expand {
+    display: block; /* Show the drop-down arrow in Internet Explorer */
+  }
+
+
+  .mar {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  /* Change the color of links on hover
+  .nav a:hover {
+    background-color: #ddd;
+    color: black;
+  } */
+  
+  /* Add a color to the active/current link
+  .nav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+   */

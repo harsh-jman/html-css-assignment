@@ -1,0 +1,15 @@
+
+
+  .mar {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .walet{
+    background-color: #f2f2f2; /* Grey background color */
+    width: 100px; /* Adjust the width to your desired square size */
+    height: 100px; /* Adjust the height to match the width */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+  }
