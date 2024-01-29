@@ -1,39 +1,70 @@
+/* Style the links inside the navigation bar */
+.nav {
+  background-color: #5be2e2;
+  overflow: hidden;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 20px; /* Adjust left and right padding here */
+  text-decoration: none;
+  font-size: 17px;
+  width: 100%;
+}
 
-  /* Style the links inside the navigation bar */
-  .nav {
-    background-color: #5be2e2;
-    overflow: hidden;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 10px 20px; /* Adjust left and right padding here */
-    text-decoration: none;
-    font-size: 17px;
-    width: 100%;
-  }
-  select {
-    background: transparent; /* Transparent background */
-    border: none; /* No border */
-    outline: none; /* No outline */
-    appearance: none; /* Remove default arrow icon in some browsers */
-    padding: 0; /* Remove default padding */
-  }
-
-  select::-ms-expand {
-    display: block; /* Show the drop-down arrow in Internet Explorer */
-  }
+.custom-dropdown {
+  border: none;
+  background-color: transparent;
+}
+.notification {
+  background-color:transparent;
+  color: white;
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+  /* border-radius: 2px; */
+}
 
 
-  .mar {
-    display: inline-block;
-    margin-top: 10px;
-  }
-  /* Change the color of links on hover
+
+.notification .badge {
+  position:absolute;
+  font-size: 10px;
+  top: 10px;
+  right: 15px;
+  /* padding: 5px 10px; */
+  border-radius: 50%;
+  background: red;
+  color: white;
+}
+
+.notification .fa-bell {
+  font-size: 30px; /* Adjust the font size as needed */
+  color: black; /* You can change the color if desired */
+}
+
+select {
+  background: transparent; /* Transparent background */
+  border: none; /* No border */
+  outline: none; /* No outline */
+  appearance: none; /* Remove default arrow icon in some browsers */
+  padding: 0; /* Remove default padding */
+}
+
+select::-ms-expand {
+  display: block; /* Show the drop-down arrow in Internet Explorer */
+}
+
+.mar {
+  display: inline-block;
+  margin-top: 10px;
+}
+/* Change the color of links on hover
   .nav a:hover {
     background-color: #ddd;
     color: black;
   } */
-  
-  /* Add a color to the active/current link
+
+/* Add a color to the active/current link
   .nav a.active {
     background-color: #04AA6D;
     color: white;
