@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(209, 207, 207);
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.on{
+    outline: none;
+}
+
+.box4{
+    height: 250px;
+    width: 400px;
+}
